@@ -84,7 +84,7 @@ Examples:
 func newPushCmd(args []string) *cobra.Command {
 	p := &pushCmd{}
 	cmd := &cobra.Command{
-		Use:          "helm push",
+		Use:          "helm acr-push",
 		Short:        "Helm plugin to push chart package to ChartMuseum",
 		Long:         globalUsage,
 		SilenceUsage: true,
